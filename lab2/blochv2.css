@@ -1,0 +1,139 @@
+html {
+    background-color: rgb(238, 238, 238);
+}
+
+#name{
+   height: 50px;
+   width: 300px;
+   background: linear-gradient(to right,rgb(255, 164, 214), rgb(252, 174, 215));
+   border-radius: 20px 20px 0px 0px;
+   position: sticky;
+   min-width: 300px;
+} 
+
+div#name > h1{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: rgb(212, 0, 71);
+    font-family: 'Times New Roman';
+}
+
+#articles{
+    height: 770px;
+    width: 1885px;
+    background: radial-gradient(rgb(255, 227, 203),rgb(255, 164, 214));
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px #acacac;
+    white-space: normal;
+    min-width: 1890px; 
+}
+
+#menu{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+
+}
+#menu li{
+    display: inline;
+    margin-right: 60px;
+    position: relative;
+    top: 20px;
+}
+
+#articles article{
+    width: 1800px;
+    position: relative;
+    top: 50px;
+    left: 35px;
+    text-align: center;
+    line-height: 130%;
+    font-family: 'Trebuchet MS';
+}
+
+#forma textarea{
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background: rgba(212, 0, 89, 0.3);
+}
+
+#pho{
+    height: 383 ;
+    width: 624;
+    position: relative;
+    top: 80px;
+    left: 33%;
+    border-radius: 10px;
+}
+
+#pod{
+    position: relative;
+    top: 75px;
+    left: 623px;
+    width: 100px;
+}
+
+ #info{
+    position: relative;
+	left: 0px;
+    bottom: -15px;
+	width: 1870px;
+	height: 210px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px #acacac;
+    
+ }
+
+ #info img{
+     height:210px ;
+     width:1870px ;
+ }
+ 
+ input {
+     position: relative;
+     top: 80px;
+     left: 50px;
+     width: 350px;
+     height: 110px;
+     background: rgba(255, 255, 255, 0.384);      
+ }
+ button{
+     position: relative;
+     top: 147px;
+     right: 30px;
+ }
+
+input[type="text"]:focus {
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+.edit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(165, 0, 63);
+}
+b{
+    position: relative;
+    left: 50px;
+    top: 95px;
+    width: 100px;
+}
+
+#fixblok{
+    position: fixed;
+    top: 210;
+    left: 1140px;
+    width: 100px;
+    border-radius: 3px;
+    background: rgba(255, 161, 219, 0.336);  
+    font-family: 'Trebuchet MS'; 
+}
+

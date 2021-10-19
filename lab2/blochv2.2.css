@@ -1,0 +1,87 @@
+html {
+    background-color: rgb(238, 238, 238);
+}
+
+#trap{
+    fill: rgb(255, 191, 230);
+}
+text{
+    font-size: 24pt;
+}
+
+#articles2{
+    position: relative;
+    top: -1100px;
+    left: 5px;
+    z-index: -1;
+    height: 915px;
+    width: 1875px;
+    background-color: rgb(107, 19, 107);
+    border-radius: 0px 0px 20px 20px;
+    background: linear-gradient(to top, rgb(255, 227, 203),rgb(255, 164, 214));
+}
+
+#border1{
+    position: relative;
+    top: -153px;
+    z-index: -2;
+    height: 900px;
+    width: 1875px;
+    border-bottom: 30px solid rgb(255, 191, 230);
+    border-top: 10px solid rgb(255, 191, 230);
+    border-left: 5px solid rgb(255, 191, 230);
+    border-right: 5px solid rgb(255, 191, 230);
+}
+
+#circle1{
+    position: relative;
+    top: -1600px;
+    left: 60px;
+    fill: rgb(255, 191, 230);
+    stroke: rgb(255, 166, 221);
+    stroke-width: 3px;
+}
+
+#pho2{
+       height: 320px;
+       width: 320px;
+       position: relative;
+       top: 115px;
+       left: 1300px;
+   }
+#spis1{
+    width: 200px;
+    position: relative;
+    top: 340px;
+    left: 1043px;
+    background: linear-gradient(45deg, #490b3c 33%, #bc0d9f 66%, #d68ad0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#spis2{
+    width: 200px;
+    position: relative;
+    top: -120px;
+    left: 1630px;
+    background: linear-gradient(45deg, #490b3c 33%, #bc0d9f 66%, #d68ad0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#text4{
+    position: relative;
+    top: 20px;
+    left: 300px;
+    font-family: 'Trebuchet MS';
+    text-indent: 32pt;
+    font-size: 13pt;
+    text-align: justify;
+    width: 850px;
+}
+
+small{
+    position: relative;
+    left: 342px;
+    color: rgb(126, 0, 73);
+}
