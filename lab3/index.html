@@ -1,0 +1,79 @@
+<!DOCTYPE NTML>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css"/> 
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+</head>
+<body>
+    <header>
+        <a class="myIcon">
+            <i class="fa fa-couch fa-4x"></i>
+            <a class="nameWeb">Sofa.BY</a>
+            </a>
+        </header>
+    <article>
+        <div class="title">Расскажите нам о ваших предпочтениях</div>
+        <form class="contact_form" action="" method="POST" name="contact_post">
+        <div class="blok1"><h3>Контактная информация</h3>
+
+        <p><label for="name">Ваше имя:</label>
+        <input type="text" placeholder="Ангелина" name="name" id="name" size="20" required pattern="[a-zA-Zа-яА-Я]+"/></p>
+
+        <p><label for="gender">Укажите ваш пол:</label>
+            <input type="radio" name="gender" value="m" required/> Мужской 
+            <input type="radio" name="gender" value="f" required/> Женский
+        </p>
+
+        <p><label for="e-mail">e-mail:</label>
+        <input type="email" placeholder="sofa.by@gmail.com" name="e-mail" id="e-mail" required pattern="[A-Za-z0-9]+@[a-z]+.com"/></p>
+
+        <p><label for="tel">Номер телефона:</label>
+        <input type="tel" placeholder="+375(xx)xxx-xx-xx" name="tel" id="tel"/></p></div>
+
+        <div class="blok2"><h3>Информация о товаре</h3>
+            <p><label for="classification">Классификация:</label>
+                <a id="classification">
+                <select name="classification">
+                <option value="1">Для спальни</option>
+                <option value="2">Для кухни</option>
+                <option value="3">Для гостинной</option>
+                <option value="4">Для детской</option></a>
+            </select></p>
+
+            <p><lable for="type">Тип мебели:</lable>
+            <a id="type"><input type="checkbox" name="type" value="Кровать"/> Кровать
+            <input type="checkbox" name="type" value="Матрас"/>Матрас
+            <input type="checkbox" name="type" value="Матрас"/>Диван
+            <input type="checkbox" name="type" value="Матрас"/>Кресло
+            <input type="checkbox" name="type" value="Матрас"/>Стул</a>
+            </p>
+
+            <p><label for="color_material">Цвет материала:</label>
+                <input type="color" name="color_material" id="color_material" value="#FF7433"/>
+            </p>
+
+            <p><label>Дата заполнения:</label>
+                <input type="date" name="date_shop" id="date_shop" 
+                required min="2020-01-01"/>
+            </p><br/>
+        
+            <p id="buttons"><input type="submit"  value="Отправить"/>
+                <input type="reset" value="Очистить"/>
+                <input type="button" onclick="window.location.href= 'file:///D:/3_courses/5_sem/SAiPIS/lab3/index2.html'" value="Результаты"/>
+            </p>
+
+        </div>
+
+    </form></article>
+
+    <nav><a href="file:///D:/3_courses/5_sem/SAiPIS/lab3/index.html" style="color: black;">Главная</a><br/>
+         <a href="file:///D:/3_courses/5_sem/SAiPIS/lab3/index2.html" style="color: black;">Результаты</a></nav>
+
+    <aside><p>Интернет-магазин мягой мебели</p>
+           <p>Лучшие цены только у нас!</p></aside>
+
+    <footer></footer>
+
+</body>
+</html>
